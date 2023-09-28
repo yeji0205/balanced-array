@@ -21,7 +21,7 @@
 
 function isBalancedArr(arr){
 
-	if (arr.length === 1) return false;
+	if (arr.length < 2) return false;
 
 	let lengthArr = arr.length;
 	let sumLeft = 0;
